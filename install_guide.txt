@@ -1,0 +1,27 @@
+1. Stiahni NodeJS a nainstaluj
+2. Stiahni IDE, najlepöie Visual Studio Code a nainstaluj
+3. Otvor CMD, chod do prieËinka(cd), v ktorom chces mat vytvoreny prieËinok tvojej reactovskej appky/stranky
+4. Do CMD napis create-react-app nazovTvojejAppky(to trosku potrva)
+5. Mal by sa ti v prehliadaËi otvoriù localhost:3000
+6. Otvor Code, cez "File" v menu otvor priecinok, v ktorom je tvoja reactovska appka
+7. Zacni kodit!
+
+Ak vypnes CMD a chces znovu kodit:
+1. Otvor Code, otvor si priecinok s tvojou appkou. V Code hore v menu "Terminal" zvol "New Terminal"
+2. Otvori sa ti terminal, cez neho sa dostan do priecinka s tvojou appkou a napis "npm start"
+3. Mal by sa ti otvorit v browsery localhost:3000
+
+Po tomto uz by sa ti mal defaultne otvarat terminal, takze krok 1 preskoc.
+
+------------------------------------------------------------------------------
+
+Ak chceö pouûÌvaù "antd":
+1. Cez CMD sa daj sa do priecinka tvojej appky(napr. C:/moja_appka) a napis "npm install antd", bez uvodzoviek.
+2. Ak si mal zapnute Studio Code, vypni a zapni. Otvor si priecink s tvojou appkou. Ak sa ti v node_moduels objavilo "antd", si dobry.
+3. Do App.css pridaj @import "~antd/dist/antd.css"; na prvy riadok.
+
+Ak chces pouzivat ine balicky:
+1. Cez CMD sa daj sa do priecinka tvojej appky(napr. C:/moja_appka) a napis "npm install nazovBalicka", bez uvodzoviek.
+2. Restartuj IDE
+
+
