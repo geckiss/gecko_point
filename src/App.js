@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Layout, Breadcrumb } from "antd";
 import NavigationMenu from "./components/menu.jsx";
+import RegisterForm from "./components/registerFormConcept.jsx";
 import "./style/App.css";
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -23,7 +24,6 @@ class App extends Component {
           onCollapse={this.onCollapse}
           theme="dark"
         >
-          <div className="logo" />
           <NavigationMenu />
         </Sider>
         <Layout>
@@ -32,11 +32,13 @@ class App extends Component {
             <Breadcrumb style={{ margin: "16px 0" }}>
               <Breadcrumb.Item>Domov</Breadcrumb.Item>
             </Breadcrumb>
+
             <div style={{ background: "#fff", padding: 24, minHeight: 280 }}>
               Obsah
+              <RegisterForm />
             </div>
           </Content>
-          <Footer style={{ textAlign: "center" }}>Created by G2 ©2018</Footer>
+          <Footer style={{ textAlign: "center" }}>Created by G2 ©2019</Footer>
         </Layout>
       </Layout>
     );
