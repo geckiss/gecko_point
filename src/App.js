@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Layout, Breadcrumb } from "antd";
 import NavigationMenu from "./components/menu.jsx";
-import RegisterForm from "./components/registerFormConcept.jsx";
+import WrappedAccountForm from "./components/accountForm.jsx";
+import Slider from "./components/slider.jsx";
+import TrioNews from "./components/news.jsx";
 import "./style/App.css";
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -24,19 +26,24 @@ class App extends Component {
           onCollapse={this.onCollapse}
           theme="dark"
         >
+          <div className="logo" />
           <NavigationMenu />
         </Sider>
         <Layout>
-          <Header style={{ background: "#fff", padding: 0 }} />
+          <Header id="header" />
           <Content style={{ padding: "0 50px" }}>
             <Breadcrumb style={{ margin: "16px 0" }}>
               <Breadcrumb.Item>Domov</Breadcrumb.Item>
             </Breadcrumb>
 
-            <div style={{ background: "#fff", padding: 24, minHeight: 280 }}>
+            <div style={{ background: "#fff", padding: 24, height: 425 }}>
+              <span>
+                <WrappedAccountForm />
+              </span>
               Obsah
-              <RegisterForm />
             </div>
+            <Slider />
+            <TrioNews />
           </Content>
           <Footer style={{ textAlign: "center" }}>Created by G2 ©2019</Footer>
         </Layout>

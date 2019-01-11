@@ -20,3 +20,9 @@
   color: rgb(255, 166, 0);
   background-color: inherit;
 }
+
+#menu-divider {
+  background-color: #ffffff;
+  height: 50px;
+  margin-top: 10px;
+}

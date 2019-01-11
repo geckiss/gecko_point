@@ -1,9 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import { Menu, Icon } from "antd";
 import "../style/menu.css";
 
 const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
 
 class NavigationMenu extends React.Component {
   state = {};
@@ -125,6 +124,8 @@ class NavigationMenu extends React.Component {
           className="menu-menu"
           disabled
         />
+
+        <div id="menu-divider" />
       </Menu>
     );
   }
