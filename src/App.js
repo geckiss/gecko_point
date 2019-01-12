@@ -3,7 +3,8 @@ import { Layout, Breadcrumb } from "antd";
 import NavigationMenu from "./components/menu.jsx";
 import WrappedAccountForm from "./components/accountForm.jsx";
 import Slider from "./components/slider.jsx";
-import TrioNews from "./components/news.jsx";
+import TrioReviews from "./components/mostUsefulReviews.jsx";
+import TrioNews from "./components/mostRecentNews.jsx";
 import "./style/App.css";
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -43,6 +44,7 @@ class App extends Component {
               Obsah
             </div>
             <Slider />
+            <TrioReviews />
             <TrioNews />
           </Content>
           <Footer style={{ textAlign: "center" }}>Created by G2 ©2019</Footer>
