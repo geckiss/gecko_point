@@ -1,3 +1,28 @@
-.menu-items {
+#main-meun {
+  max-width: 500px;
+}
+
+.menu-menu {
   color: rgb(255, 166, 0);
+}
+
+#ccna,
+#bodybuilding,
+#calisthenics,
+#hw,
+#sw {
+  color: rgb(255, 166, 0);
+  background-color: inherit;
+}
+
+.menu-submenu,
+.menu-menu .menu-submenu .menu-item {
+  color: rgb(255, 166, 0);
+  background-color: inherit;
+}
+
+#menu-divider {
+  background-color: #ffffff;
+  height: 50px;
+  margin-top: 10px;
 }
